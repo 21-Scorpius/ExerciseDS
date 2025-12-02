@@ -109,8 +109,11 @@ public class Program
         remplir(tab, n);
         val = saisieval();
         Doublon(tab, val, n);
-        deuxiemspluspetit(tab, n);
-        rechercheseq(n, tab, val);
+
+        Console.WriteLine("le dexieme plus petit est = " + deuxiemspluspetit(tab, n));
+        Console.WriteLine("la valeur a rechercher est " + rechercheseq(n, tab, val));
+        Affiche(tab, n);
+
 
 
     }
