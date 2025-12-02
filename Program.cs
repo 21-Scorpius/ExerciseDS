@@ -31,14 +31,16 @@ public class Program
         {
             Console.WriteLine("T[" + i + "]");
             int x = Convert.ToInt32(Console.ReadLine());
-            if (x != -1)
+            if (x == -1)
             {
-                tab[i] = x;
-                i++;
+                break;
+               
             }
             else
             {
-                break;
+              
+                tab[i] = x;
+                
             }
         }
     }

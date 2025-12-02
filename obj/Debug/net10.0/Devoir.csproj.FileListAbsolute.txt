@@ -1,0 +1,15 @@
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\bin\Debug\net10.0\Devoir.exe
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\bin\Debug\net10.0\Devoir.deps.json
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\bin\Debug\net10.0\Devoir.runtimeconfig.json
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\bin\Debug\net10.0\Devoir.dll
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\bin\Debug\net10.0\Devoir.pdb
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.AssemblyInfoInputs.cache
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.AssemblyInfo.cs
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.csproj.CoreCompileInputs.cache
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.sourcelink.json
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.dll
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\refint\Devoir.dll
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.pdb
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\Devoir.genruntimeconfig.cache
+C:\Users\Scorpius-21\source\repos\Devoir\Devoir\obj\Debug\net10.0\ref\Devoir.dll
