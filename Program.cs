@@ -2,11 +2,11 @@
 
 public class Program
 {
-    public static void Affiche(int[] tab , int n)
+    public static void Affiche(int[] tab, int n)
     {
         for (int i = 0; i < n; i++)
         {
-            Console.WriteLine("|" + tab[i] + "|"); 
+            Console.WriteLine("|" + tab[i] + "|");
         }
     }
     public static bool rechercheseq(int n, int[] tab, int v)
@@ -34,79 +34,81 @@ public class Program
             if (x == -1)
             {
                 break;
-               
+
             }
             else
             {
-              
+
                 tab[i] = x;
-                
+
             }
         }
     }
-    public static bool Doublon(int[] tab , int val ,int n)
+    public static bool Doublon(int[] tab, int val, int n)
     {
-        int s = 0; 
-        bool f = false; 
-        for ( int i = 0; i < n; i++)
+        int s = 0;
+        bool f = false;
+        for (int i = 0; i < n; i++)
         {
-            if (tab[i]== val)
+            if (tab[i] == val)
             {
-                s++; 
+                s++;
             }
         }
         if (s > 1)
         {
-            f = true; 
+            f = true;
         }
-        return f; 
+        return f;
     }
-    public static int  saisie()
-        
+    public static int saisie()
+
     {
-        
+
         Console.WriteLine("saisie la taille du tableau ");
         int s = Convert.ToInt32(Console.ReadLine());
-        return s; 
+        return s;
     }
     public static int saisieval()
     {
         Console.WriteLine("saisie un variable ");
         int v = Convert.ToInt32(Console.ReadLine());
-        return v;  
+        return v;
     }
-    public static int deuxiemspluspetit(int[] tab , int n)
+    public static int deuxiemspluspetit(int[] tab, int n)
     {
         int d = 0;
-        int v = 0; 
-        
-        for (int i = 0; i < n; i++) { 
-        if (Doublon(tab , tab[i], n ) == true)
+        int v = 0;
+
+        for (int i = 0; i < n; i++)
         {
-                d = i; 
-        }
+            if (Doublon(tab, tab[i], n) == true)
+            {
+                d = i;
+            }
         }
         v = tab[d];
-        int v1 = 0; 
-        for (int i = d+1; i < n; i++)
+        int v1 = 0;
+        for (int i = d + 1; i < n; i++)
         {
+
             if (tab[i] > v)
             {
                 v1 = tab[i];
             }
         }
-        return v1; 
+        return v1;
     }
-  
+
     public static void Main()
     {
         int n;
         int val;
         int[] tab = new int[50];
-       n = saisie();
+        n = saisie();
         remplir(tab, n);
         val = saisieval();
-        Doublon(tab, val ,n);
+        Doublon(tab, val, n);
         deuxiemspluspetit(tab, n);
         rechercheseq(n, tab, val);
 
